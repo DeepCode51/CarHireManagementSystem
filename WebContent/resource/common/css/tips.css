@@ -1,0 +1,225 @@
+@CHARSET "UTF-8";
+* {
+	margin:0px;
+	padding:0px;
+	border:none;		
+}
+
+body {
+	width:100%;
+	min-width:980px;
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	font-family:微软雅黑;
+/* 	background-image:url(../images/left.png); */ /* 仅限测试透明度时使用 */
+}
+
+.btn {
+	cursor:pointer;
+}
+.tip_fix {
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:3;
+	background-color:rgba(100,100,100,0.5); /*最后一位是透明度*/
+    filter: alpha(opacity=90);
+    overflow:hidden; 
+    display:none;    
+}
+
+/* tip_fix1为备用样式，请忽略 */
+.tip_fix1 {
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:3;
+	background-color:rgba(100,100,100,0.5); /*最后一位是透明度*/
+    filter: alpha(opacity=90);  
+    overflow:hidden; 
+    display:none;  
+    height:100%;	   
+}
+.tip_fix2 {
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:3;
+	background-color:rgba(100,100,100,0.5); /*最后一位是透明度*/
+    filter: alpha(opacity=90);  
+    overflow:hidden; 
+    display:none;     
+}
+
+.tip_frame {
+	width:728px;
+	min-height:380px;
+	margin:20px auto;
+	margin-top:128px;
+	padding-top:1px;
+/* 	background-color:#FFFEFD; */  
+    opacity:1;    
+	z-index:4;
+}
+.tip_frame_ok {
+	width:400px;
+	min-height:100px;
+	margin-top:150px;
+	padding-top:1px;
+	z-index:4;
+}
+
+.tip_frame_confirm {
+	width:400px;
+	min-height:100px;
+	margin-top:150px;
+	padding-top:1px;
+	z-index:4;
+}
+.btn_close {
+	width:40px;
+	height:40px;
+/* 	border:1px solid #DDD; */
+	border-radius:50%;
+/* 	background-color:#EEE; */
+	float:right;
+	background-image:url(../../img/manageImg/popup-close.png);
+	background-size:100%;
+	z-index:6;
+}
+.tip_box {
+	width:95%;
+/* 	min-height:380px; */
+	background-color:#FFF;
+	margin:0px auto;
+	margin-top:20px;
+	border:1px solid #D9D9D9;
+	box-shadow:0px 0px 10px #CCC;
+	overflow:hiddden;
+	z-index:5;
+}
+.tip_box_confirm {
+	width:90%;
+	font-weight:bold;
+}
+.tip_title {
+	width:100;
+	font-weight:bold;
+	color:#48ACEF;
+	text-align:center;
+	padding-top:16px;
+	padding-bottom:16px;
+	margin:0px auto;
+	border-bottom:1px solid #CCC;
+	margin-bottom:30px;
+}
+.tip_cnt_row {
+	width:100%;
+	font-size:14px;
+	padding-left:16px;
+	overflow:hidden;
+	
+}
+.tip_content {
+	text-align:center;
+	margin:80px auto 60px;
+}
+.tip_input1 {
+/* 	width: 658px; */
+/*     height: 130px; */
+    width:194px;
+	height:30px;
+	border:1px solid #CCC;
+	border-radius:4px;
+	margin-bottom:20px;
+	padding-left:4px;
+}
+.tip_input2 {
+	width:364px;
+	height:30px;
+	border:1px solid #CCC;
+	border-radius:4px;
+	margin-bottom:20px;
+	padding-left:4px;
+}
+.tip_select1 {
+	width:195px;
+	height:32px;
+	color:#666;
+	border:1px solid #CCC;
+	border-radius:4px;
+	margin-bottom:20px;
+}
+.tip_textarea1 {
+	width:526px;
+	height:100px;
+	display:inline;
+	border:1px solid #CCC;
+	border-radius:4px;
+	padding-top:4px;
+	padding-left:4px;
+}
+.sel_default {
+	color:#999;
+}
+.tip_cnt_l {
+	width:48%;
+	font-size:14px;
+	float:left;
+}
+.tip_item_title {
+	width:96px;
+	text-align:right;
+	display:inline-block;
+	margin-right:4px;
+}
+.tip_item_title1 {
+	display:block;
+	float:left;
+	margin-right:8px;
+}
+.tip_cnt_btn {
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:24px;
+}
+.btn1 {
+	width:98px;
+	color:#48ACEF;
+	font-size:14px;
+	text-align:center;
+	padding-top:4px;
+	padding-bottom:6px;
+	background-color:#FFF;
+	border:1px solid #48ACEF;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+}
+.btn2 {
+	width:62px;
+    margin-left:20px;
+}
+.btn_yes {
+	margin-right:18px;
+}
+.btn_no {
+	margin-left:18px;
+}
+#queren{z-index:1000;}
+#big_photo{
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:3;
+	background-color:rgba(100,100,100,0.5); /*最后一位是透明度*/
+    filter: alpha(opacity=90);  
+    overflow:hidden; 
+    display:none;}
